@@ -203,7 +203,7 @@ fun DogIcon(
         modifier = modifier
             .size(dimensionResource(id = R.dimen.image_size))
             .padding(dimensionResource(id = R.dimen.padding_small))
-            .clip(MaterialTheme.shapes.medium),
+            .clip(MaterialTheme.shapes.small),
         contentScale = ContentScale.Crop,
         painter = painterResource(dogIcon),
         contentDescription = null
